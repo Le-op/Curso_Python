@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playeras Únicas</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Playeras+con+Estilo') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .producto {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .boton {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+    .contacto {
+      text-align: center;
+      padding: 2rem;
+    }
+    .contacto a {
+      color: #fff;
+      background: #25d366;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Playeras Únicas</h1>
+    <p>Diseños originales para destacar</p>
+  </header>
+  <div class="hero">¡Exprésate con estilo!</div>
+  <section class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x300?text=Playera+1" alt="Playera 1" />
+      <h3>Diseño Rebelde</h3>
+      <p>$299 MXN</p>
+      <a href="#" class="boton">Comprar</a>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x300?text=Playera+2" alt="Playera 2" />
+      <h3>Estilo Retro</h3>
+      <p>$299 MXN</p>
+      <a href="#" class="boton">Comprar</a>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x300?text=Playera+3" alt="Playera 3" />
+      <h3>Arte Urbano</h3>
+      <p>$299 MXN</p>
+      <a href="#" class="boton">Comprar</a>
+    </div>
+  </section>
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <p>¿Te interesa alguna playera? Escríbeme por WhatsApp:</p>
+    <a href="https://wa.me/524626323133" target="_blank">Enviar mensaje</a>
+  </section>
+  <footer>
+    &copy; 2025 Playeras Únicas. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
